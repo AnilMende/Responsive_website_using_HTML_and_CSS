@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <input id="display" readonly>
+
+        <div id="keys">
+
+            <button onclick="applyToConvert('+')" class="operator-btn">+</button>
+            <button onclick="applyToConvert('7')">7</button>
+            <button onclick="applyToConvert('8')">8</button>
+            <button onclick="applyToConvert('9')">9</button>
+            <button onclick="applyToConvert('-')" class="operator-btn">-</button>
+            <button onclick="applyToConvert('4')">4</button>
+            <button onclick="applyToConvert('5')">5</button>
+            <button onclick="applyToConvert('6')">6</button>
+            <button onclick="applyToConvert('*')" class="operator-btn">*</button>
+            <button onclick="applyToConvert('1')">1</button>
+            <button onclick="applyToConvert('2')">2</button>
+            <button onclick="applyToConvert('3')">3</button>
+            <button onclick="applyToConvert('/')" class="operator-btn">/</button>
+            <button onclick="applyToConvert('0')">0</button>
+            <button onclick="applyToConvert('.')">.</button>
+
+            <button onclick="calculate('=')">=</button>
+
+            <button onclick="applyToConvert('%')" class="operator-btn">%</button>
+
+            <button onclick="clearDisplay('AC')" class="operator-btn">AC</button>
+        </div>
+
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
